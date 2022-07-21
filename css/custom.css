@@ -1,0 +1,44 @@
+body {
+  background-color: #ebebeb;
+  font-family: Solis, Arial, Helvetica, sans-serif;
+}
+
+.daily-forecasts .card {
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.forecast-date {
+  padding-top: 20px;
+}
+
+.forecast-icon {
+  padding-top: 15px;
+}
+
+.card-img {
+  width:75px;
+  height:45px;
+}
+
+.phrase {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.max-temp {
+  font-size: 50.6px;
+}
+
+.min-temp {
+  font-size: 20.3px;
+  color: #878787;
+}
+
+.list-group {
+  position: absolute;
+  z-index: 1;
+  top: 80%;
+  left: 15px;
+  width: 90%;
+}
