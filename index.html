@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../regal-test-assessment/lib/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="../regal-test-assessment/css/custom.css">
 
     <title>Weather Information</title>
   </head>
@@ -14,17 +16,30 @@
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand mb-0 h1" href="#">AccuWeather Daily Forecast</a>
     </nav>
-    <form>
-      <div class="form-group">
-        <label for="city">Location search</label>
-        <input type="text" class="form-control" id="location-search">
-        <div class="list-group"></div>
+    <br/>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <form>
+            <div class="form-group">
+              <label for="city">Location search</label>
+              <input type="text" class="form-control" id="location-search">
+              <ul class="list-group"></ul>
+            </div>
+          </form>
+        </div>
       </div>
-    </form>
+      <div class="row">
+        <div class="col">
+          <div class="daily-forecasts text-center"></div>
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery and Bootstrap JS -->
     <script type="text/javascript" src="../regal-test-assessment/lib/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="../regal-test-assessment/lib/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../regal-test-assessment/js/forecast.js"></script>
+    <script type="text/javascript" src="../regal-test-assessment/js/app.js"></script>
   </body>
 </html>
