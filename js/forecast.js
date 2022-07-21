@@ -51,6 +51,7 @@ var forecast = {
       },
       success: function (data) {
         $(".list-group").empty(); // empty previous list-group
+        $(".daily-forecasts").empty(); // empty previous daily forecasts
         app.show3DailyForecasts(data["DailyForecasts"]);
       },
       error: function (err) {
